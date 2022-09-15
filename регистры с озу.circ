@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </tool>
+    <tool name="Constant">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(250,510)" to="(630,510)"/>
+    <wire from="(690,330)" to="(690,340)"/>
+    <wire from="(380,400)" to="(380,660)"/>
+    <wire from="(750,230)" to="(750,240)"/>
+    <wire from="(700,240)" to="(750,240)"/>
+    <wire from="(760,220)" to="(810,220)"/>
+    <wire from="(230,310)" to="(230,320)"/>
+    <wire from="(790,240)" to="(790,310)"/>
+    <wire from="(360,220)" to="(410,220)"/>
+    <wire from="(410,210)" to="(410,220)"/>
+    <wire from="(250,330)" to="(300,330)"/>
+    <wire from="(630,440)" to="(630,510)"/>
+    <wire from="(690,340)" to="(730,340)"/>
+    <wire from="(750,240)" to="(790,240)"/>
+    <wire from="(690,250)" to="(690,280)"/>
+    <wire from="(250,420)" to="(250,510)"/>
+    <wire from="(210,420)" to="(250,420)"/>
+    <wire from="(350,230)" to="(350,260)"/>
+    <wire from="(690,310)" to="(690,330)"/>
+    <wire from="(810,220)" to="(830,220)"/>
+    <wire from="(670,290)" to="(670,330)"/>
+    <wire from="(650,440)" to="(650,550)"/>
+    <wire from="(150,310)" to="(230,310)"/>
+    <wire from="(200,220)" to="(280,220)"/>
+    <wire from="(490,150)" to="(490,200)"/>
+    <wire from="(540,240)" to="(620,240)"/>
+    <wire from="(650,550)" to="(730,550)"/>
+    <wire from="(230,320)" to="(750,320)"/>
+    <wire from="(510,270)" to="(760,270)"/>
+    <wire from="(350,290)" to="(670,290)"/>
+    <wire from="(490,150)" to="(810,150)"/>
+    <wire from="(380,400)" to="(560,400)"/>
+    <wire from="(810,150)" to="(810,220)"/>
+    <wire from="(640,260)" to="(640,330)"/>
+    <wire from="(200,140)" to="(200,220)"/>
+    <wire from="(830,220)" to="(830,500)"/>
+    <wire from="(730,500)" to="(830,500)"/>
+    <wire from="(540,160)" to="(540,240)"/>
+    <wire from="(250,330)" to="(250,420)"/>
+    <wire from="(410,220)" to="(510,220)"/>
+    <wire from="(300,240)" to="(300,330)"/>
+    <wire from="(760,270)" to="(760,310)"/>
+    <wire from="(730,550)" to="(730,660)"/>
+    <wire from="(540,160)" to="(750,160)"/>
+    <wire from="(310,220)" to="(340,220)"/>
+    <wire from="(670,330)" to="(690,330)"/>
+    <wire from="(300,330)" to="(640,330)"/>
+    <wire from="(230,660)" to="(380,660)"/>
+    <wire from="(650,240)" to="(680,240)"/>
+    <wire from="(730,340)" to="(730,500)"/>
+    <wire from="(200,140)" to="(410,140)"/>
+    <wire from="(700,400)" to="(770,400)"/>
+    <wire from="(410,140)" to="(410,190)"/>
+    <wire from="(510,220)" to="(510,270)"/>
+    <wire from="(770,340)" to="(770,400)"/>
+    <wire from="(750,160)" to="(750,210)"/>
+    <wire from="(730,500)" to="(730,550)"/>
+    <wire from="(420,200)" to="(490,200)"/>
+    <wire from="(780,310)" to="(790,310)"/>
+    <comp lib="6" loc="(132,54)" name="Text">
+      <a name="text" val="Взимодействие регистров с ОЗУ"/>
+      <a name="font" val="SansSerif italic 16"/>
+    </comp>
+    <comp lib="4" loc="(700,400)" name="RAM">
+      <a name="addrWidth" val="4"/>
+    </comp>
+    <comp lib="2" loc="(770,340)" name="Demultiplexer">
+      <a name="facing" val="north"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(700,240)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="6" loc="(590,680)" name="Text">
+      <a name="text" val="0 - чтение"/>
+    </comp>
+    <comp lib="6" loc="(88,33)" name="Text">
+      <a name="text" val="Кобяшова Д.А"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="4" loc="(310,220)" name="Register">
+      <a name="label" val="регистр Ё"/>
+    </comp>
+    <comp lib="6" loc="(588,701)" name="Text">
+      <a name="text" val="1 - запись "/>
+    </comp>
+    <comp lib="0" loc="(150,310)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="выбор регистров"/>
+    </comp>
+    <comp lib="1" loc="(410,190)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(750,210)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(360,220)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="6" loc="(639,663)" name="Text">
+      <a name="text" val="чтение/запись"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="1" loc="(690,280)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="4" loc="(650,240)" name="Register">
+      <a name="label" val="регистр Ё"/>
+    </comp>
+    <comp lib="0" loc="(210,420)" name="Clock"/>
+    <comp lib="0" loc="(730,660)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(230,660)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="адресный"/>
+    </comp>
+    <comp lib="1" loc="(350,260)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+  </circuit>
+  <circuit name="алу">
+    <a name="circuit" val="алу"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp lib="6" loc="(88,33)" name="Text">
+      <a name="text" val="Кобяшова Д.А"/>
+      <a name="font" val="SansSerif bold 20"/>
+    </comp>
+    <comp lib="6" loc="(132,54)" name="Text">
+      <a name="text" val="Взимодействие регистров с АЛУ"/>
+      <a name="font" val="SansSerif italic 16"/>
+    </comp>
+  </circuit>
+</project>
